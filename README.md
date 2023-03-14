@@ -1,6 +1,4 @@
-# Project Title
-
-How to get underlay passthrough working in MRTK3 for the Quest2/Pro.
+# Overlay Passthrough MRTK3 for the Quest2/Pro
 
 ## Description
 
