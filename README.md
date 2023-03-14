@@ -28,6 +28,6 @@ Yerio Janssen
 
 ## Acknowledgments
 
-I got the idea to figue this out from "Joost van Schaik"
+I got the idea to figure this out from "Joost van Schaik"
 * [LinkedIn Joost](https://www.linkedin.com/in/joostvanschaik/)
 * [Joost's Blog on overlay passthrough](https://localjoost.github.io/Passthrough-transparency-with-MRTK2-and-3-on-Quest-2Pro/)
