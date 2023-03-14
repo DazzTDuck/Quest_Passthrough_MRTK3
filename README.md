@@ -1,62 +1,35 @@
 # Project Title
 
-Simple overview of use/purpose.
+How to get underlay passthrough working in MRTK3 for the Quest2/Pro.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Here I will explain how to get the underlay passthrough working for the quests on the MRTK3 systems.
+This can be really useful for cross platform development for the Hololens 2 and other Quest devices.
+
+* This project uses Unity version: 2022.2.3f1
+
+## IMPORTANT NOTE
+
+With underlay, you cannot see through objects so that means behind a object you cannot see the real world.
+So if you want to always see the real world, set the passthrough layer on overlay and set the opacity to 0.2-0.3.
 
 ## Getting Started
 
-### Dependencies
+* You can copy the demo project from this repository to use as a base or you can create your own project.
+* With your own project you need to install MRTK3 and the Oculus Intergration package into it.
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+### How to use
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* Explain how to setup the passthrough
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Yerio Janssen  
+* [LinkedIn](https://www.linkedin.com/in/yerio-janssen-a20980239/)
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+I got the idea to figue this out from "Joost van Schaik"
+* [LinkedIn](https://www.linkedin.com/in/joostvanschaik/)
+* [Blog on overlay passthrough](https://localjoost.github.io/Passthrough-transparency-with-MRTK2-and-3-on-Quest-2Pro/)
