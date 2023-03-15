@@ -12,6 +12,8 @@ This can be really useful for cross platform development for the Hololens 2 and 
 With underlay, you cannot see through objects so that means behind a object you cannot see the real world.
 So if you want to always see the real world, set the passthrough layer on overlay and set the opacity to 0.2-0.3.
 
+![text](https://i.ibb.co/7RFMf1F/Screenshot-8.png)
+
 ## Getting Started
 
 * You can copy the demo project from this repository to use as a base or you can create your own project.
