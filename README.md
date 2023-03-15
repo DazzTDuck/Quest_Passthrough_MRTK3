@@ -1,4 +1,4 @@
-# Overlay Passthrough MRTK3 for the Quest2/Pro
+# Underlay Passthrough MRTK3 for the Quest2/Pro
 
 ## Description
 
