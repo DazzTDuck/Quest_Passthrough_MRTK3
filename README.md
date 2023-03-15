@@ -20,7 +20,7 @@ So if you want to always see the real world, set the passthrough layer on overla
 ### How to setup the passthrough
 
 1. **Drag the MRTK XR Rig into your scene**
-* ![text](https://i.ibb.co/yyGmR9g/Screenshot-1.png)
+ ![text](https://i.ibb.co/yyGmR9g/Screenshot-1.png)
 
 ## Authors
 
