@@ -25,7 +25,7 @@ So if you want to always see the real world, set the passthrough layer on overla
  
  1. **Open the rig and click on the Main Camera object**
 
- ![text](https://i.ibb.co/yyGmR9g/Screenshot-2.png)
+ ![text](https://i.ibb.co/qyZHNXc/Screenshot-2.png)
 
 ## Authors
 
