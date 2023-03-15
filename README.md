@@ -9,8 +9,9 @@ This can be really useful for cross platform development for the Hololens 2 and 
 
 ## IMPORTANT NOTE
 
-With underlay, you cannot see through objects so that means behind a object you cannot see the real world.
-So if you want to always see the real world, set the passthrough layer on overlay and set the opacity to 0.2-0.3.
+* If you build the project, **MAKE SURE** you have set the Android plugin provider to **OpenXR**, otherwise you don't have hand tracking.
+
+* With underlay, objects are fully opaque, so you cannot see the passthrough behind objects. So if you want to be able to always see the passthrough or have the same feel as a Hololens, set the passthrough layer on overlay and set the opacity to 0.2-0.3.
 
 ![text](https://i.ibb.co/7RFMf1F/Screenshot-8.png)
 
@@ -40,7 +41,7 @@ So if you want to always see the real world, set the passthrough layer on overla
 5. **In the OVR Manager, set Hand tracking support to 'Controller and hands' and set the frequency to 'MAX'.**
 6. **Then set the Passthrough support to 'Supported' and make sure 'Enable Passthrough' is checked.**
 
- ![text](https://i.ibb.co/gVQ9TvQ/Screenshot-5.png)
+ ![text](https://i.ibb.co/V3D6Qk2/Screenshot-9.png)
 
 7. **Open the OVR Passthrough Layer and set the Placement to Underlay**
 
@@ -49,10 +50,14 @@ So if you want to always see the real world, set the passthrough layer on overla
 8. **And to make sure the passthrough works you need to add the 'Enable Unpromultiplied Alpha' component to the object**
 
  ![text](https://i.ibb.co/XZJQ9vH/Screenshot-7.png)
+ 
+ > If you want to know what the script does, you can open it and it explains why the script is important
 
 ### And now if you build the application on android you should have proper passthrough!
 
-- Last thing you need to do if you want to use the application for a Hololens, the object needs to be disabled if running on a Hololens otherwise it will crash. Simply use a script that uses 'Preceding Conditional Compilation' to disable the object when running on 'UNITY_WSA'(this is the platform the Hololens runs on) and then it will get disabled on the Hololens and you can use all the features as normal! I have a script that handles this in the repository so you could use that.
+- Last thing you need to do if you want to use the application for a Hololens, the object needs to be disabled if running on a Hololens otherwise it will crash. 
+- Simply use a script that uses 'Preceding Conditional Compilation' to disable the object when running on 'UNITY_WSA' (this is the platform the Hololens runs on) and then it will get disabled on the Hololens and you can use all the features as normal! I have a script that handles this in the repository so you could use that.
+- You can find the script in the Assets folder, the script is called "DisableForHololens".
 
 ## Authors
 
