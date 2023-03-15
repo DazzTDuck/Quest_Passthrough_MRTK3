@@ -25,9 +25,34 @@ So if you want to always see the real world, set the passthrough layer on overla
 
  ![text](https://i.ibb.co/yyGmR9g/Screenshot-1.png)
  
- 1. **Open the rig and click on the Main Camera object**
+2. **Open the rig and click on the Main Camera object**
 
- ![text](https://i.ibb.co/qyZHNXc/Screenshot-2.png)
+ !![text](https://i.ibb.co/qyZHNXc/Screenshot-2.png)
+ 
+3. **Turn off HDR on the camera, and then you can close the rig**
+
+ ![text](https://i.ibb.co/cD7HjJ8/Screenshot-3.png)
+
+4. **Create and empty object and call it "Passthrough", on this object add the "OVR Manager" and "OVR Passthrough Layer" compontents**
+
+ ![text](https://i.ibb.co/jGVw0Lj/Screenshot-4.png)
+
+5. **In the OVR Manager, set Hand tracking support to 'Controller and hands' and set the frequency to 'MAX'.**
+6. **Then set the Passthrough support to 'Supported' and make sure 'Enable Passthrough' is checked.**
+
+ ![text](https://i.ibb.co/gVQ9TvQ/Screenshot-5.png)
+
+7. **Open the OVR Passthrough Layer and set the Placement to Underlay**
+
+ ![text](https://i.ibb.co/hHv6W0c/Screenshot-6.png)
+
+8. **And to make sure the passthrough works you need to add the 'Enable Unpromultiplied Alpha' component to the object**
+
+ ![text](https://i.ibb.co/XZJQ9vH/Screenshot-7.png)
+
+### And now if you build the application on android you should have proper passthrough!
+
+- Last thing you need to do if you want to use the application for a Hololens, the object needs to be disabled if running on a Hololens otherwise it will crash. Simply use a script that uses 'Preceding Conditional Compilation' to disable the object when running on 'UNITY_WSA'(this is the platform the Hololens runs on) and then it will get disabled on the Hololens and you can use all the features as normal! I have a script that handles this in the repository so you could use that.
 
 ## Authors
 
