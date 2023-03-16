@@ -47,7 +47,7 @@ This can be really useful for cross platform development for the Hololens 2 and 
 
  ![text](https://i.ibb.co/hHv6W0c/Screenshot-6.png)
 
-8. **And to make sure the passthrough works you need to add the 'Enable Unpromultiplied Alpha' component to the object**
+8. **And to make sure the passthrough works you need to add the 'Enable Unpremultiplied Alpha' component to the object**
 
  ![text](https://i.ibb.co/XZJQ9vH/Screenshot-7.png)
  
