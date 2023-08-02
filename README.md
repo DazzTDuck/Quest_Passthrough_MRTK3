@@ -54,6 +54,18 @@ This can be really useful for cross platform development for the Hololens 2 and 
  ![text](https://i.ibb.co/XZJQ9vH/Screenshot-7.png)
  
  > If you want to know what the script does, you can open it and it explains why the script is important
+ 
+ ### Last thing to keep in mind!
+ 
+ > When you want to test something in play mode inside the editor, you need to change this setting EVERYTIME you open the project, else the editor will crash.
+ 
+  ![text](https://i.ibb.co/Vpc17bf/Image1-Settings.png)
+  
+ > Go to your project settings, and under XR Plug-in Management open the OpenXR tab. You should see the option "Play Mode OpenXR Runtime"
+ 
+  ![text](https://i.ibb.co/mc4XvsC/Image2-Settings.png)
+  
+ >  Make sure to change this to "Windows Mixed Reality", this will fix the crash problem. 
 
 ### And now if you build the application on android you should have proper passthrough!
 
